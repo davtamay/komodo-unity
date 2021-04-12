@@ -84,3 +84,24 @@ request.onload = function(){
         details.assets.push(asset);
     }
 };
+
+// Capture controls
+const captureStart = function() {
+    console.log("===== START CAPTURE =====", session_id);
+    socket.emit("start_recording", session_id);
+};
+
+const captureStop = function() {
+    console.log("===== STOP CAPTURE =====", session_id);
+    window.socket.emit("end_recording", session_id);
+};
+
+const startPlayback = function() {
+    console.log('playback started:', playback_id);
+    let data = {
+        client_id: client_id, 
+        session_id: session_id,
+        playback_id: playback_id
+    }
+    socket.emit('playback', data);
+};
