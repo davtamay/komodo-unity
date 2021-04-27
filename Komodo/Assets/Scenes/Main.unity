@@ -1204,7 +1204,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d10fbb07f10007a4d8820d92c3a88cce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraToUseForGazeEvents: {fileID: 0}
+  cameraToUseForGazeEvents: {fileID: 1857023760}
 --- !u!114 &1147076530
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1420,12 +1420,12 @@ PrefabInstance:
     - target: {fileID: 6988635759825893148, guid: bf996e5ccd9500641a7489fee53d936d,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6988635759825893148, guid: bf996e5ccd9500641a7489fee53d936d,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6988635759825893148, guid: bf996e5ccd9500641a7489fee53d936d,
         type: 3}
@@ -1670,12 +1670,12 @@ PrefabInstance:
     - target: {fileID: 6988635760811148488, guid: bf996e5ccd9500641a7489fee53d936d,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6988635760811148488, guid: bf996e5ccd9500641a7489fee53d936d,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6988635760811148488, guid: bf996e5ccd9500641a7489fee53d936d,
         type: 3}
@@ -1690,17 +1690,17 @@ PrefabInstance:
     - target: {fileID: 6988635760811148488, guid: bf996e5ccd9500641a7489fee53d936d,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 337.73566
+      value: 266.60397
       objectReference: {fileID: 0}
     - target: {fileID: 7837372776465092958, guid: bf996e5ccd9500641a7489fee53d936d,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7837372776465092958, guid: bf996e5ccd9500641a7489fee53d936d,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7837372776465092958, guid: bf996e5ccd9500641a7489fee53d936d,
         type: 3}
@@ -1715,7 +1715,7 @@ PrefabInstance:
     - target: {fileID: 7837372776465092958, guid: bf996e5ccd9500641a7489fee53d936d,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 721.8391
+      value: 544.0099
       objectReference: {fileID: 0}
     - target: {fileID: 9186645595324046788, guid: bf996e5ccd9500641a7489fee53d936d,
         type: 3}
@@ -1952,6 +1952,12 @@ MonoBehaviour:
 --- !u!1 &1842643159 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6485938592563953255, guid: 53289847581eb3c4a9df5d9b7f47ddb9,
+    type: 3}
+  m_PrefabInstance: {fileID: 156873145}
+  m_PrefabAsset: {fileID: 0}
+--- !u!20 &1857023760 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 8489535059029875929, guid: 53289847581eb3c4a9df5d9b7f47ddb9,
     type: 3}
   m_PrefabInstance: {fileID: 156873145}
   m_PrefabAsset: {fileID: 0}
