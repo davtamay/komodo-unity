@@ -1,3 +1,5 @@
+![Komodo-Core](MyRepoFiles/gameWalkthrough.gif)
+
 ## Installing the komodo_unity Core
 
 **Clone the repository.** 
